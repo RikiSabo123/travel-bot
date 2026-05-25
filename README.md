@@ -23,8 +23,11 @@ GEMINI_API_KEY=your_api_key_here
 ```
 ניתן לקבל מפתח API ב-[Google AI Studio](https://aistudio.google.com/app/apikey)
 
-### 3. הפעל את ה-Notebook
-פתח את `בוט טיולים.ipynb` ב-Jupyter והרץ את כל התאים.
+### 3. פתח את Jupyter Notebook
+```bash
+jupyter notebook
+```
+בדפדפן שנפתח, לחץ על הקובץ `בוט טיולים.ipynb` והרץ את כל התאים עם **Run All**.
 
 ## 🛠️ טכנולוגיות
 
