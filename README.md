@@ -17,10 +17,11 @@ pip install -r requirements.txt
 ```
 
 ### 2. הגדר מפתח API
-צור קובץ `.env` בתיקיית הפרויקט והוסף:
+העתק את קובץ הדוגמה וערוך אותו:
+```bash
+copy .env.example .env
 ```
-GEMINI_API_KEY=your_api_key_here
-```
+פתח את `.env` והחלף את `your_api_key_here` במפתח שלך.
 ניתן לקבל מפתח API ב-[Google AI Studio](https://aistudio.google.com/app/apikey)
 
 ### 3. פתח את Jupyter Notebook
